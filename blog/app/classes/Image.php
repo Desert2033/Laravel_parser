@@ -28,4 +28,3 @@ namespace App\classes;
 	}
 
 
-?>

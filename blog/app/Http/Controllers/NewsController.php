@@ -35,7 +35,7 @@ class NewsController extends Controller
         $mass_news = $parser->Parse();
 
 
-       $this->insertNews($mass_news);
+        $this->insertNews($mass_news);
 
         return redirect()->route('home');
 
